@@ -112,7 +112,7 @@ main p{
     justify-content: center
 }
 .mindset{
-    background-image: url(/images/gradient1.png), url(/images/watch.png);
+    background-image: url(../images/gradient1.png), url(../images/watch.png);
     background-repeat: no-repeat;
     height: 200px;
     padding: 50px;

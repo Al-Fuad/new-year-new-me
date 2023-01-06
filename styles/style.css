@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+nav{
+    background-color: #151414;
+    height: 70px;
+}
+nav li{
+    list-style: none;
+    margin: 22px;
+}
+nav a{
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+}
+nav a:hover{
+    background-color: #005FAC;
+    border-radius: 5px;
+}
+nav ul{
+    display: flex;
+}
+p{
+    font-size: 16px;
+}
+.banner{
+    color: #ffffff;
+    background-image: url(../images/banner/banner3.png);
+    height: 508px;
+    background-repeat: no-repeat;
+    padding: 200px 200px;
+    text-align: right;
+    margin-bottom: 130px;
+}
+.banner p, .banner h1{
+    margin-left: 60%;
+    margin-bottom: 20px;
+}
+.banner h1{
+    font-size: 50px;
+}
+.btn-primary{
+    height: 64px;
+    width: 170px;
+    background-color: #fff;
+    border: 0;
+    border-radius: 5px;
+    color: #005FAC;
+    font-weight: 600;
+    font-size: 20px;
+}
+main p{
+    color: #444343;
+}
+.ta-right{
+    text-align: right;
+}
+.flex{
+    display: flex;
+}
+.failure-section{
+    justify-content: center;
+}
+.failures{
+    width: 450px;
+    margin-left: 100px;
+}
+.failures h1{
+    font-size: 40px;
+    width: 400px;
+}
+.failures p{
+    margin-top: 25px;
+}
+.failures ul{
+    margin-top: 20px;
+    list-style: none;
+}
+.failures li{
+    margin-bottom: 25px;
+}
+.c-green{
+    color: rgb(148, 226, 30);
+}
+.primary-margin{
+    margin: 130px 230px;
+}
+.myplan{
+    text-align: center;
+}
+.myplan h1{
+    font-size: 40px;
+    margin-bottom: 38px;
+}
+.myplan h2{
+    font-size: 28px;
+}
+.myplan h2, .myplan img{
+    margin-bottom: 12px;
+}
+.myplan p{
+    font-size: 20px;
+}
+.myplan .flex{
+    justify-content: center;
+    gap: 90px;
+}
+.mindset-section{
+    justify-content: center
+}
+.mindset{
+    background-image: url(/images/gradient1.png), url(/images/watch.png);
+    background-repeat: no-repeat;
+    height: 200px;
+    padding: 50px;
+    border-radius: 10px;
+}
+.mindset h1{
+    font-size: 40px;
+    color: #ffffff;
+    width: 60%;
+    margin-bottom: 30px;
+}
+.future h1{
+    font-size: 40px;
+}
+.future p{
+    margin: 20px 200px 20px 0;
+    color: rgb(211, 211, 211);
+}
+.future img{
+    margin-right: 10px;
+}
+footer{
+    background-color: #151414;
+    color: #e1e1e1;
+    display: flex;
+    padding: 130px 230px;
+}
+.form input[type="email"]{
+    background-color: #151414;
+    height: 60px;
+    width: 300px;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 0 20px;
+    margin-top: 25px;
+}
+.form input[type="button"]{
+    height: 64px;
+    width: 170px;
+    background-color: #005FAC;
+    border: 0;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 20px;
+    margin-top: 13px;
+}

@@ -10,8 +10,9 @@
 </head>
 <body>
     <header>
-        <nav>
-            <ul>
+        <nav class="flex">
+            <a href="#"><img src="/images/logo.png" alt="" height="50px"></a>
+            <ul class="flex">
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Blogs</a></li>
                 <li><a href="#">About</a></li>
@@ -25,7 +26,7 @@
         </div>
     </header>
     <main>
-        <section class="failure-section flex primary-margin">
+        <section class="flex primary-margin">
             <div><img src="images/failure.png" width="420px" alt=""></div>
             <div class="failures">
                 <h1>My failures of previous year</h1>
@@ -38,6 +39,20 @@
                     <li><span class="c-green">✓</span> Contrary to popular simply.</li>
                 </ul>
             </div>
+        </section>
+        <section class="flex primary-margin">
+            <div class="successes">
+                <h1>My successes of previous year</h1>
+                <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock.</p>
+                <ul>
+                    <li><span class="c-green">✓</span> Contrary to popular belief, is not simply.</li>
+                    <li><span class="c-green">✓</span> Contrary to popular belief.</li>
+                    <li><span class="c-green">✓</span> Contrary to popular, is not simply.</li>
+                    <li><span class="c-green">✓</span> Contrary to popular belief, is not simply.</li>
+                    <li><span class="c-green">✓</span> Contrary to popular simply.</li>
+                </ul>
+            </div>
+            <div><img src="images/success.png" width="420px" alt=""></div>
         </section>
         <section class="myplan primary-margin">
             <h1>My Plans</h1>
@@ -64,14 +79,14 @@
                 </div>
             </div>
         </section>
-        <section class="mindset-section">
+        <section>
             <div class="mindset primary-margin">
                 <h1>Always keep a positive mindset</h1>
                 <button class="btn-primary">Call Now</button>
             </div>
         </section>
     </main>
-    <footer>
+    <footer class="flex">
         <div class="future">
             <h1>Future</h1>
             <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words</p>
@@ -81,9 +96,9 @@
             <img src="images/icons/twitter.png" alt="twitter">
             <img src="images/icons/youtube.png" alt="yt">
         </div>
-        <div class="form flex">
+        <div class="form">
+            <h2>Subscribe</h2>
             <form action="">
-                <h2>Subscribe</h2>
                 <input type="email" name="email" placeholder="Enter your email">
                 <input type="button" value="Subscribe">
             </form>
